@@ -349,7 +349,6 @@ function App() {
         </a>
         <nav className="topnav" aria-label="主导航">
           <a className="active" href="#flasher">固件烧录</a>
-          <a href="#guide">使用指南</a>
         </nav>
         <div className="topbar-right">
           <span className={`browser-pill ${serialSupported && secureOrigin ? 'supported' : 'unsupported'}`}>
